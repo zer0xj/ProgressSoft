@@ -73,7 +73,7 @@ if [ ! -z "$OUTFILE" ]; then
 	fi
 else
 		if [ $GARBAGE -gt "0" ]; then
-			for i in $(seq $COUNT); do echo "$((RANDOM%$COUNT)),$(currencyCodeGen),$(currencyCodeGen),\"$(dateGen)\",$(amtGen)"
+			for i in $(seq $COUNT); do echo "$((RANDOM%$COUNT+$COUNT)),$(currencyCodeGen),$(currencyCodeGen),\"$(dateGen)\",$(amtGen)"
 			done
 		else
 			for i in $(seq $COUNT); do echo "$i,$(currencyCodeGen),$(currencyCodeGen),\"$(dateGen)\",$(amtGen)"
