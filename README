@@ -1,0 +1,33 @@
+To generate test data, please use the dataGen.sh script:
+	
+	% ./src/sh/dataGen.sh -h # Get usage information, etc.
+
+	Examples:
+	% ./src/sh/dataGen.sh -f testData1.csv
+	% ./src/sh/dataGen.sh -g -f testData2.csv
+
+
+SQL Setup:
+
+	Please load the SQL files contained in: ./src/sql/*
+
+	This program expects that the SQL server will have the following settings:
+		User = ProgressSoft
+		Password = ProgressSoft
+		Database hostname = localhost
+
+
+To build/run the package:
+
+	% gradle tomcatRunWar
+	% gradle tomcatStop
+
+
+To test the package, go to the following address in your browser:
+
+	http://localhost:8080/ProgressSoft/
+
+
+Thanks for taking a look, and please feel free to reach out to me with any questions.
+
+Julien

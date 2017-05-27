@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/zer0x/.gradle/caches/modules-2/files-2.1/au.com.bytecode/opencsv/2.4/66151f8e7f00426025da525c2d64ed78cbe3fd08/opencsv-2.4.jar" sourcepath="/home/zer0x/.gradle/caches/modules-2/files-2.1/au.com.bytecode/opencsv/2.4/aa54f93409a145ebcbd8042ec80215590c9d5b1b/opencsv-2.4-sources.jar"/>
+	<classpathentry kind="lib" path="/home/zer0x/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.6/380ef5226de2c85ff3b38cbfefeea881c5fce09d/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="lib" path="/home/zer0x/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" sourcepath="/home/zer0x/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
